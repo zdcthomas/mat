@@ -19,3 +19,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/mat](https://hexdocs.pm/mat).
 
+## Usage
+
+Once installed, simply call `mix mat` to format your code.
+This takes the same arguments as `mix format` does, it simply adds trailing commas to all multiline lists, maps, and tuples.

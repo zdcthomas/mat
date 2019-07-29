@@ -106,7 +106,6 @@ defmodule Mix.Tasks.Mat do
 
   @impl true
   def run(args) do
-    IO.inspect("asdflkj")
     {opts, args} = OptionParser.parse!(args, strict: @switches)
     {dot_formatter, formatter_opts} = eval_dot_formatter(opts)
 
